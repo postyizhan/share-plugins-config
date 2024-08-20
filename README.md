@@ -1,3 +1,14 @@
+# 📖 分支
+
+当前正在 signin 分支
+
+点击 [此处](https://github.com/postyizhan/share-plugins-config) 回到主页
+
+# 📷 照骗
+
+<details>
+  <summary>点击展开</summary>
+
 ![](https://img.fastmirror.net/s/2024/08/20/66c4779828bc6.png)
 
 ![](https://img.fastmirror.net/s/2024/08/20/66c477986a1e4.png)
@@ -6,11 +17,7 @@
 
 ![](https://img.fastmirror.net/s/2024/08/20/66c4779938d63.png)
 
-# 📖 分支
-
-当前正在 signin 分支
-
-点击 [此处](https://github.com/postyizhan/share-plugins-config) 回到主页
+</details>
 
 # 📦 安装
 
