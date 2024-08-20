@@ -1,0 +1,33 @@
+info:
+  namespace: "yizhan"
+font_images:
+  signin:
+    permission: group.admin
+    show_in_gui: false
+    path: "signin.png"
+    y_position: 47
+items:
+  sign_yes:
+    resource:
+      generate: true
+      material: PAPER
+      textures:
+        - sign_yes.png
+  sign_no:
+    resource:
+      generate: true
+      material: PAPER
+      textures:
+        - sign_no.png
+  sign_now:
+    resource:
+      generate: true
+      material: PAPER
+      textures:
+        - sign_now.png
+  sign_furture:
+    resource:
+      generate: true
+      material: PAPER
+      textures:
+        - sign_furture.png

@@ -1,33 +1,37 @@
-# 🤔 这是什么
+![](https://img.fastmirror.net/s/2024/08/20/66c4779828bc6.png)
 
-这是驿站公开分享的一些插件配置，仅供学习使用
+![](https://img.fastmirror.net/s/2024/08/20/66c477986a1e4.png)
 
-# 📦 配置一览
+![](https://img.fastmirror.net/s/2024/08/20/66c47798c0871.png)
 
-## Invero
+![](https://img.fastmirror.net/s/2024/08/20/66c4779938d63.png)
 
-- [笨蛋签到](https://github.com/postyizhan/share-plugins-config/tree/signin) 全 GUI 的签到菜单配置
+# 📖 分支
 
-# 🔖 其他地址
+当前正在 signin 分支
 
-这里是本项目地址/相关转载地址
+点击 [此处](https://github.com/postyizhan/share-plugins-config) 回到主页
 
-- [GitHub](https://github.com/postyizhan/share-plugins-config)
-- [MineBBS](https://www.minebbs.com/threads/nitwikit-geyser.26356/)
+# 📦 安装
 
-# ⬆️ 提交贡献
+你需要安装 [Checkitem](https://yizhan.wiki/NitWikit/Java/process/plugin/Front-Plugin/PlaceHolderAPI/CheckItem#%E5%AE%89%E8%A3%85%E6%AD%A4%E6%89%A9%E5%B1%95) 扩展并 [启用give和remove](https://yizhan.wiki/NitWikit/Java/process/plugin/Front-Plugin/PlaceHolderAPI/CheckItem#%E5%90%AF%E7%94%A8give%E5%92%8Cremove)
 
-1. Fork 此仓库至自己的 GitHub 账户下
-2. 将自己账户下的仓库克隆至本地
-   `git clone https://github.com/你的用户名/share-plugins-config.git`
-3. 在本地仓库中进行修改并构建文档测试，无误后 push 至自己的仓库
-4. 回到此仓库，点击 Pull requests -> New pull request 发起 PR
+覆盖文件后重启服务端
 
-# 📢 声明
+# ⚙️ 配置
 
-- 你不能声称这是你的作品
-- 未经作者允许,你不得将本作品用于如下途径：
-  - 改编或转载
-  - 盈利
-- 你可以将本作品在不经授权的情况下用于：
-  - 带有出处的引用
+## 签到卡
+
+默认会使用名为 `&a&l补签卡` 的物品作为补签卡，你可以找到下方的变量
+
+```
+%checkitem_amount_nameequals:&a&l补签卡%
+%checkitem_remove_nameequals:&a&l补签卡,amt:1%
+%checkitem_amount_nameequals:&a&l补签卡%
+```
+
+修改他们来修改签到使用的补签卡
+
+## 签到奖励
+
+找到 `tell "&a&l! &7签到成功！"` 在上下文中可配置签到奖励

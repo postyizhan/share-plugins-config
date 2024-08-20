@@ -1,0 +1,10 @@
+info:
+  namespace: "yizhan"
+
+items:
+  space:
+    resource:
+      generate: true
+      material: PAPER
+      textures:
+        - space.png
