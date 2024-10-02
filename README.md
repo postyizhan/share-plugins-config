@@ -6,7 +6,9 @@
 
 ## Invero
 
-- [笨蛋签到](https://github.com/postyizhan/share-plugins-config/tree/signin) 全 GUI 的签到菜单配置
+- [笨蛋签到](https://www.minebbs.com/resources/.9237/) 全 GUI 的签到菜单配置
+- [tpa选人菜单](https://www.minebbs.com/resources/.9240/) 列出服务器在线的所有玩家的头 可翻页，搜索
+- [每日按钮](https://www.minebbs.com/resources/invero.9547/) 每天只能点按一次的按钮
 
 # 🔖 其他地址
 
