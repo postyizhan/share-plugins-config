@@ -1,0 +1,23 @@
+title: '每日按钮'
+
+layout:
+  - '    A    '
+
+events:
+  pre_open:
+    if check &player@update != time as "YYYYMMdd" then {
+      context set player@daily_button to literal false
+      context set player@update to time as "YYYYMMdd"
+    }
+
+icons:
+  'A':
+    material: stone
+    name: "每日按钮（每天只能点一次）"
+    action:
+      if: '&player@daily_button'
+      then:
+        tell "你今天已经点过了"
+      else:
+        tell "成功"
+        context set player@daily_button to true
