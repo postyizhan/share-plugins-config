@@ -23,6 +23,8 @@
 
 你需要安装 [Checkitem](https://yizhan.wiki/NitWikit/Java/process/plugin/Front-Plugin/PlaceHolderAPI/CheckItem#%E5%AE%89%E8%A3%85%E6%AD%A4%E6%89%A9%E5%B1%95) 扩展并 [启用give和remove](https://yizhan.wiki/NitWikit/Java/process/plugin/Front-Plugin/PlaceHolderAPI/CheckItem#%E5%90%AF%E7%94%A8give%E5%92%8Cremove)
 
+你需要安装 [Vulpecula](https://github.com/Lanscarlos/Vulpecula) 插件，因为我用到了它提供的 if* 语句
+
 覆盖文件后重启服务端
 
 # ⚙️ 配置
