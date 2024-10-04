@@ -20,7 +20,7 @@ nodes:
     type: kether
     value:
       set YEAR to time as "yyyy"
-      if calc "YEAR % 4" == 0 && calc "YEAR % 100" != 0 || calc "YEAR % 400" == 0
+      if* calc "YEAR % 4" == 0 && calc "YEAR % 100" != 0 || calc "YEAR % 400" == 0
       then context set max to 29
       else context set max to 28
 
